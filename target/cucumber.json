@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11303360754,
+              "duration": 17667960592,
               "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:653)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:646)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\r\n\tat pages.Pages.click(Pages.java:21)\r\n\tat pages.Homepage.clickSignIn(Homepage.java:23)\r\n\tat stepdefination.LoginStep.when_a_user_is_on_the_homepage(LoginStep.java:29)\r\n\tat ✽.Given when a user is on the homepage(Login.feature:6)\r\n",
               "status": "failed"
             },
@@ -50,6 +50,10 @@
           {
             "line": 4,
             "name": "@regression"
+          },
+          {
+            "line": 4,
+            "name": "@test"
           }
         ]
       }
@@ -79,7 +83,7 @@
         "steps": [
           {
             "result": {
-              "duration": 688444,
+              "duration": 867111,
               "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:653)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:646)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\r\n\tat pages.Pages.click(Pages.java:21)\r\n\tat pages.Homepage.clickSignIn(Homepage.java:23)\r\n\tat stepdefination.SignupPageStep.when_the_user_is_on_the_sign_up_page(SignupPageStep.java:36)\r\n\tat ✽.Given when the user is on the sign up page(SignupPage.feature:7)\r\n",
               "status": "failed"
             },
